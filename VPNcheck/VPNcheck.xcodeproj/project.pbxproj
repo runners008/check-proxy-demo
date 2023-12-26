@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		322A257D2B3A7CFF00E97AFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A257C2B3A7CFF00E97AFF /* AppDelegate.swift */; };
+		322A257F2B3A7CFF00E97AFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A257E2B3A7CFF00E97AFF /* SceneDelegate.swift */; };
+		322A25812B3A7CFF00E97AFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A25802B3A7CFF00E97AFF /* ViewController.swift */; };
+		322A25842B3A7CFF00E97AFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322A25822B3A7CFF00E97AFF /* Main.storyboard */; };
+		322A25862B3A7D0100E97AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322A25852B3A7D0100E97AFF /* Assets.xcassets */; };
+		322A25892B3A7D0100E97AFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322A25872B3A7D0100E97AFF /* LaunchScreen.storyboard */; };
+		EE67A98C7A503C393350A978 /* Pods_VPNcheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBAE2015077860EFB502F76A /* Pods_VPNcheck.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		322A25792B3A7CFF00E97AFF /* VPNcheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPNcheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		322A257C2B3A7CFF00E97AFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		322A257E2B3A7CFF00E97AFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		322A25802B3A7CFF00E97AFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		322A25832B3A7CFF00E97AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		322A25852B3A7D0100E97AFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		322A25882B3A7D0100E97AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		322A258A2B3A7D0100E97AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F37419E0899BA8F4552FF3 /* Pods-VPNcheck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPNcheck.debug.xcconfig"; path = "Target Support Files/Pods-VPNcheck/Pods-VPNcheck.debug.xcconfig"; sourceTree = "<group>"; };
+		EBAE2015077860EFB502F76A /* Pods_VPNcheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VPNcheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD4D5E0164283F9D8741849 /* Pods-VPNcheck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPNcheck.release.xcconfig"; path = "Target Support Files/Pods-VPNcheck/Pods-VPNcheck.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		322A25762B3A7CFF00E97AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE67A98C7A503C393350A978 /* Pods_VPNcheck.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09EDE5E937B5D9DAD9B45BB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBAE2015077860EFB502F76A /* Pods_VPNcheck.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		322A25702B3A7CFF00E97AFF = {
+			isa = PBXGroup;
+			children = (
+				322A257B2B3A7CFF00E97AFF /* VPNcheck */,
+				322A257A2B3A7CFF00E97AFF /* Products */,
+				E628B1926F5E0A0D9BCA9B5F /* Pods */,
+				09EDE5E937B5D9DAD9B45BB4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		322A257A2B3A7CFF00E97AFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				322A25792B3A7CFF00E97AFF /* VPNcheck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		322A257B2B3A7CFF00E97AFF /* VPNcheck */ = {
+			isa = PBXGroup;
+			children = (
+				322A257C2B3A7CFF00E97AFF /* AppDelegate.swift */,
+				322A257E2B3A7CFF00E97AFF /* SceneDelegate.swift */,
+				322A25802B3A7CFF00E97AFF /* ViewController.swift */,
+				322A25822B3A7CFF00E97AFF /* Main.storyboard */,
+				322A25852B3A7D0100E97AFF /* Assets.xcassets */,
+				322A25872B3A7D0100E97AFF /* LaunchScreen.storyboard */,
+				322A258A2B3A7D0100E97AFF /* Info.plist */,
+			);
+			path = VPNcheck;
+			sourceTree = "<group>";
+		};
+		E628B1926F5E0A0D9BCA9B5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49F37419E0899BA8F4552FF3 /* Pods-VPNcheck.debug.xcconfig */,
+				FDD4D5E0164283F9D8741849 /* Pods-VPNcheck.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		322A25782B3A7CFF00E97AFF /* VPNcheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322A258D2B3A7D0100E97AFF /* Build configuration list for PBXNativeTarget "VPNcheck" */;
+			buildPhases = (
+				940020966F06D24082EC744B /* [CP] Check Pods Manifest.lock */,
+				322A25752B3A7CFF00E97AFF /* Sources */,
+				322A25762B3A7CFF00E97AFF /* Frameworks */,
+				322A25772B3A7CFF00E97AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VPNcheck;
+			productName = VPNcheck;
+			productReference = 322A25792B3A7CFF00E97AFF /* VPNcheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		322A25712B3A7CFF00E97AFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					322A25782B3A7CFF00E97AFF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 322A25742B3A7CFF00E97AFF /* Build configuration list for PBXProject "VPNcheck" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 322A25702B3A7CFF00E97AFF;
+			productRefGroup = 322A257A2B3A7CFF00E97AFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				322A25782B3A7CFF00E97AFF /* VPNcheck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		322A25772B3A7CFF00E97AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322A25892B3A7D0100E97AFF /* LaunchScreen.storyboard in Resources */,
+				322A25862B3A7D0100E97AFF /* Assets.xcassets in Resources */,
+				322A25842B3A7CFF00E97AFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		940020966F06D24082EC744B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VPNcheck-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		322A25752B3A7CFF00E97AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322A25812B3A7CFF00E97AFF /* ViewController.swift in Sources */,
+				322A257D2B3A7CFF00E97AFF /* AppDelegate.swift in Sources */,
+				322A257F2B3A7CFF00E97AFF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		322A25822B3A7CFF00E97AFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				322A25832B3A7CFF00E97AFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		322A25872B3A7D0100E97AFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				322A25882B3A7D0100E97AFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		322A258B2B3A7D0100E97AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		322A258C2B3A7D0100E97AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		322A258E2B3A7D0100E97AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F37419E0899BA8F4552FF3 /* Pods-VPNcheck.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HC4W4SL295;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VPNcheck/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DemoAppDraft.VPNcheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		322A258F2B3A7D0100E97AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD4D5E0164283F9D8741849 /* Pods-VPNcheck.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HC4W4SL295;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VPNcheck/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DemoAppDraft.VPNcheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		322A25742B3A7CFF00E97AFF /* Build configuration list for PBXProject "VPNcheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322A258B2B3A7D0100E97AFF /* Debug */,
+				322A258C2B3A7D0100E97AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322A258D2B3A7D0100E97AFF /* Build configuration list for PBXNativeTarget "VPNcheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322A258E2B3A7D0100E97AFF /* Debug */,
+				322A258F2B3A7D0100E97AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 322A25712B3A7CFF00E97AFF /* Project object */;
+}
